@@ -36,6 +36,7 @@
 		2DE3CE081BEF7BE100DA0F2E /* MJStatusResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE3CDFC1BEF7BE100DA0F2E /* MJStatusResult.m */; };
 		2DE3CE091BEF7BE100DA0F2E /* MJStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE3CDFE1BEF7BE100DA0F2E /* MJStudent.m */; };
 		2DE3CE0A1BEF7BE100DA0F2E /* MJUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE3CE001BEF7BE100DA0F2E /* MJUser.m */; };
+		84E0E24820873F95003CD32E /* haha.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E0E24720873F95003CD32E /* haha.m */; };
 		C37522B81CF0AC320037E747 /* MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = C37522B71CF0AC320037E747 /* MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C37522BC1CF0AC320037E747 /* MJExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C37522B51CF0AC320037E747 /* MJExtension.framework */; };
 		C37522BD1CF0AC320037E747 /* MJExtension.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C37522B51CF0AC320037E747 /* MJExtension.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -160,6 +161,8 @@
 		2DE3CDFF1BEF7BE100DA0F2E /* MJUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJUser.h; sourceTree = "<group>"; };
 		2DE3CE001BEF7BE100DA0F2E /* MJUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJUser.m; sourceTree = "<group>"; };
 		2DE3CE0B1BEF7C2100DA0F2E /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		84E0E24620873F95003CD32E /* haha.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = haha.h; sourceTree = "<group>"; };
+		84E0E24720873F95003CD32E /* haha.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = haha.m; sourceTree = "<group>"; };
 		C37522B51CF0AC320037E747 /* MJExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C37522B71CF0AC320037E747 /* MJExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
 		C37522B91CF0AC320037E747 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -237,6 +240,8 @@
 				2DE3CDC81BEF7B9F00DA0F2E /* MJExtension */,
 				2DE3CDEB1BEF7BA400DA0F2E /* Classes */,
 				2DE3CD951BEF7B3800DA0F2E /* Supporting Files */,
+				84E0E24620873F95003CD32E /* haha.h */,
+				84E0E24720873F95003CD32E /* haha.m */,
 			);
 			path = MJExtensionExample;
 			sourceTree = "<group>";
@@ -556,6 +561,7 @@
 				2DE3CD9A1BEF7B3800DA0F2E /* AppDelegate.m in Sources */,
 				2DE3CE041BEF7BE100DA0F2E /* MJBook.m in Sources */,
 				2DE3CDE71BEF7B9F00DA0F2E /* NSObject+MJCoding.m in Sources */,
+				84E0E24820873F95003CD32E /* haha.m in Sources */,
 				2DE3CE071BEF7BE100DA0F2E /* MJStatus.m in Sources */,
 				2DE3CE051BEF7BE100DA0F2E /* MJBox.m in Sources */,
 				2DE3CE021BEF7BE100DA0F2E /* MJBag.m in Sources */,
@@ -881,6 +887,7 @@
 				C37522BF1CF0AC330037E747 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
